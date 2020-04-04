@@ -9,7 +9,8 @@ public class TestModel {
 		/*
 		 * 	Write here your test model
 		 */
-
+		for (Corso c : model.getElencoCorsi())
+			System.out.println(c);
 	}
 
 }
